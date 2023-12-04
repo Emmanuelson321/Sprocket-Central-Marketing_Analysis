@@ -29,7 +29,13 @@ The following are the tools used;
 - Filters and Slicers in Tableau
 
 ## Data Quality Assessment
-I did an in-depth exploration of the datasets with Excel, in which I discovered several data quality issues needed for cleaning and transformation. The links to the data set are provided [here] (https://cdn-assets.theforage.com/vinternship_modules/kpmg_data_analytics/KPMG_VI_New_raw_data_update_final.xlsx)
+I did an in-depth exploration of the datasets with Excel, in which I discovered several data quality issues needed for cleaning and transformation. The links to the data set are provided [here](https://cdn-assets.theforage.com/vinternship_modules/kpmg_data_analytics/KPMG_VI_New_raw_data_update_final.xlsx).
+
+![KPMG dirt data](https://github.com/Emmanuelson321/Sprocket-Central-Analysis/assets/134542481/5706e868-a63e-4d41-b633-a45dfe2e474d)
+
+The Original customer demographic dataset contained 20,000 rows and 13 columns. There are 4002 distinct customers and 20,000 distinct transactions. The following are the steps I took for the data cleaning process;
+- Removed duplicates values
+- Removed irrelevant column such as the 'Default column'
 
 ## Data wrangling & Modelling
 ## Data Analysis & Visualization
