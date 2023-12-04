@@ -3,9 +3,9 @@
 
 
 ## Introduction
-Sprocket Central Pty Ltd is a mid-sized company specializing in high-quality bikes and accessible cycling accessories for riders. Their marketing team is looking to boost business by analyzing their existing customer dataset to determine customer trends and behavior, they are also looking to expand into a new market. 
-We(KPMG) are helping do this with a suitable marketing strategy. 
-The client(Sprocket Central Pty Ltd) provided KPMG with 3 data sets and 1 dataset New Customers for recommendation;
+Sprocket Central Pty Ltd. is a mid-sized company specializing in high-quality bikes and accessible cycling accessories for riders. Their marketing team is looking to boost business by analyzing their existing customer dataset to determine customer trends and behavior. They are also looking to expand into a new market. 
+We (KPMG) are helping to do this with a suitable marketing strategy.
+The client (Sprocket Central Pty Ltd) provided KPMG with 3 data sets and 1 dataset of New Customers for recommendation.
 
 - Customer Demographic 
 - Customer Addresses
@@ -13,17 +13,17 @@ The client(Sprocket Central Pty Ltd) provided KPMG with 3 data sets and 1 datase
 - New Customers
 
 ## Problem Definition
-Sprocket Central Pty Ltd needs help with its customer and transaction data. The organization has a large dataset relating to its customers, but its team is unsure how to effectively analyze it to help optimize its marketing strategy. We helped by Providing data-driven insights and actionable steps with the existing customer demography and sales transaction data to expand into a new market.
+Sprocket Central Pty Ltd. needs help with its customer and transaction data. The organization has a large dataset relating to its customers, but its team is unsure how to effectively analyze it to help optimize its marketing strategy. We helped by providing data-driven insights and actionable steps with the existing customer demography and sales transaction data to expand into a new market.
 
 ## Tools Used
-The following are the tools used;
+The following are the tools used:
 - Excel
 - Tableau
 
 ## Skills demonstrated
 - Data Cleaning
 - Data quality assessment
-- Functions used include; COUNTIFS, DATEDIF, VLOOK UP, IFS, PROPER FUNCTION
+- COUNTIFS, DATEDIF, VLOOK UP, IFS, and PROPER FUNCTION are some of the functions used.
 - Pivot Table
 - Table Calculation in Tableau
 - Filters and Slicers in Tableau
@@ -33,16 +33,19 @@ I did an in-depth exploration of the datasets with Excel, where I discovered sev
 
 ![KPMG dirt data](https://github.com/Emmanuelson321/Sprocket-Central-Analysis/assets/134542481/5706e868-a63e-4d41-b633-a45dfe2e474d)
 
-The Original customer demographic dataset contained 20,000 rows and 13 columns. There are 4002 distinct customers and 20,000 distinct transactions. The following are the steps I took for the data cleaning process;
+The Original customer demographic dataset contained 20,000 rows and 13 columns. There are 4002 distinct customers and 20,000 distinct transactions. The following are the steps I took for the data cleaning process:
 - Inconsistent data type for the same attribute (e.g. numeric values for some fields and strings for others)
 - Removed duplicates values
 - Removed irrelevant columns such as the _Default column_
 - Customer IDs 753 and 3790 are deceased and therefore not useful for the analysis
 
-## Data wrangling & Modelling
-After several data-cleaning processes to ensure validity, accuracy, and consistency. Appropriate data transformations are made to ensure consistent data types for a given field, the Date of birth column(D.O.B) was transformed into 4 age brackets using the Tableau **table calculation** feature.
+## Data wrangling & Modeling
+After several data-cleaning processes to ensure validity, accuracy, and consistency, Appropriate data transformations are made to ensure consistent data types for a given field, the Date of birth column (D.O.B.) was transformed into 4 age brackets using the Tableau **table calculation** feature.
 
 ## Data Analysis & Visualization
+The dashboard provides marketing insights and answers through an interactive report page. Here is the link to the [dashboard] (https://public.tableau.com/shared/NWN4RCXC6?:display_count=n&:origin=viz_share_link)
 
 ![KPMG Dashboard](https://github.com/Emmanuelson321/Sprocket-Central-Analysis/assets/134542481/a1fa70f8-81da-45eb-9848-4f9952021b85)
 
+## Insights
+## Recommendation
