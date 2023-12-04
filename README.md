@@ -1,4 +1,4 @@
-# Sprocket-Central-Analysis
+# Sprocket-Central-Marketing-Analysis
 ![Premium Vector _ Drawing of the mountain bike competition hand draw](https://github.com/Emmanuelson321/Sprocket-Central-Analysis/assets/134542481/8cdd1b93-0cd8-4669-9a94-1739afa733a5)
 
 
@@ -29,15 +29,20 @@ The following are the tools used;
 - Filters and Slicers in Tableau
 
 ## Data Quality Assessment
-I did an in-depth exploration of the datasets with Excel, in which I discovered several data quality issues needed for cleaning and transformation. The links to the data set are provided [here](https://cdn-assets.theforage.com/vinternship_modules/kpmg_data_analytics/KPMG_VI_New_raw_data_update_final.xlsx).
+I did an in-depth exploration of the datasets with Excel, where I discovered several data quality issues needed for cleaning and transformation. The links to the data set are provided [here](https://cdn-assets.theforage.com/vinternship_modules/kpmg_data_analytics/KPMG_VI_New_raw_data_update_final.xlsx).
 
 ![KPMG dirt data](https://github.com/Emmanuelson321/Sprocket-Central-Analysis/assets/134542481/5706e868-a63e-4d41-b633-a45dfe2e474d)
 
 The Original customer demographic dataset contained 20,000 rows and 13 columns. There are 4002 distinct customers and 20,000 distinct transactions. The following are the steps I took for the data cleaning process;
+- Inconsistent data type for the same attribute (e.g. numeric values for some fields and strings for others)
 - Removed duplicates values
-- Removed irrelevant column such as the 'Default column'
+- Removed irrelevant columns such as the _Default column_
+- Customer IDs 753 and 3790 are deceased and therefore not useful for the analysis
 
 ## Data wrangling & Modelling
+After several data-cleaning processes to ensure validity, accuracy, and consistency. Appropriate data transformations are made to ensure consistent data types for a given field, the Date of birth column(D.O.B) was transformed into 4 age brackets using the Tableau **table calculation** feature.
+
 ## Data Analysis & Visualization
 
-  
+![KPMG Dashboard](https://github.com/Emmanuelson321/Sprocket-Central-Analysis/assets/134542481/a1fa70f8-81da-45eb-9848-4f9952021b85)
+
