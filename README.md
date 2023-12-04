@@ -43,7 +43,7 @@ The Original customer demographic dataset contained 20,000 rows and 13 columns. 
 After several data-cleaning processes to ensure validity, accuracy, and consistency, Appropriate data transformations are made to ensure consistent data types for a given field, the Date of birth column (D.O.B.) was transformed into 4 age brackets using the Tableau **table calculation** feature.
 
 ## Data Analysis & Visualization
-The dashboard provides marketing insights and answers through an interactive report page. Here is the link to the [dashboard] (https://public.tableau.com/shared/NWN4RCXC6?:display_count=n&:origin=viz_share_link)
+The dashboard provides marketing insights and answers through an interactive report page. Here is the link to the [dashboard](https://public.tableau.com/shared/NWN4RCXC6?:display_count=n&:origin=viz_share_link)
 
 ![KPMG Dashboard](https://github.com/Emmanuelson321/Sprocket-Central-Analysis/assets/134542481/a1fa70f8-81da-45eb-9848-4f9952021b85)
 
