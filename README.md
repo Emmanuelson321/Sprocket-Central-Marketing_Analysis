@@ -3,9 +3,9 @@
 
 
 ## Introduction
-Sprocket Central Pty Ltd. is a mid-sized company specializing in high-quality bikes and accessible cycling accessories for riders. Their marketing team is looking to boost business by analyzing their existing customer dataset to determine customer trends and behavior. They are also looking to expand into a new market. 
+Sprocket Central Pty Ltd. is a mid-sized company specializing in high-quality bikes and accessible cycling accessories for riders. Their marketing team is looking to boost business by analyzing their existing customer dataset to determine customer trends and behavior. They are also looking to expand into a new market.
 We (KPMG) are helping to do this with a suitable marketing strategy.
-The client (Sprocket Central Pty Ltd) provided KPMG with 3 data sets and 1 dataset of New Customers for recommendation.
+The client (Sprocket Central Pty Ltd) provided KPMG with 3 data sets and 1 dataset of new customers for recommendation.
 
 - Customer Demographic 
 - Customer Addresses
@@ -48,4 +48,7 @@ The dashboard provides marketing insights and answers through an interactive rep
 ![KPMG Dashboard](https://github.com/Emmanuelson321/Sprocket-Central-Analysis/assets/134542481/a1fa70f8-81da-45eb-9848-4f9952021b85)
 
 ## Insights
+- The most profitable customer segment for the company is the mass customer, and the age group of 28-50 is the most profitable.
+- New South Wales customers contributed the most to the sales volume of the company.
+
 ## Recommendation
