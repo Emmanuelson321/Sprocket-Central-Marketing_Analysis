@@ -43,14 +43,16 @@ The original customer demographic dataset contained 20,000 rows and 13 columns. 
 After several data-cleaning processes to ensure validity, accuracy, and consistency, appropriate data transformations are made to ensure consistent data types for a given field. The date of birth column (D.O.B.) was transformed into 4 age brackets using the Tableau **table calculation** feature. I used Vlookup for interactivity within the 3 sheets, I used Vlookup to look up the customer name in the transactions sheet based on the customer ID.
 
 ## Data Analysis and Visualization
-The dashboard provides marketing insights and answers through an interactive report page. Here is the link to the [dashboard].(https://public.tableau.com/shared/NWN4RCXC6?:display_count=n&:origin=viz_share_link)
+The dashboard provides marketing insights and answers through an interactive report page. Here is the link to the [dashboard](https://public.tableau.com/shared/NWN4RCXC6?:display_count=n&:origin=viz_share_link)
 
 ![KPMG Dashboard](https://github.com/Emmanuelson321/Sprocket-Central-Analysis/assets/134542481/a1fa70f8-81da-45eb-9848-4f9952021b85)
 
 The analysis chart below shows customers from manufacturing and financial services have been the major contributors to sales volume for the company.
+
 ![image](https://github.com/Emmanuelson321/Sprocket-Central-Marketing_Analysis/assets/134542481/84ba527c-753d-4de7-bb0e-bdf0fe917f86)
 
 The chart presented below displays the distribution of customers by state and car ownership status. According to the chart, around 50% of customers in the NSW region do not own a car, which could be the reason for the high sales of bikes in that region.
+
 ![image](https://github.com/Emmanuelson321/Sprocket-Central-Marketing_Analysis/assets/134542481/e5fd2b03-c035-4b84-a8e8-e44cf9a83a57)
 
 ## Insights
