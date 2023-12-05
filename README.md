@@ -33,22 +33,33 @@ I did an in-depth exploration of the datasets with Excel, where I discovered sev
 
 ![KPMG dirt data](https://github.com/Emmanuelson321/Sprocket-Central-Analysis/assets/134542481/5706e868-a63e-4d41-b633-a45dfe2e474d)
 
-The Original customer demographic dataset contained 20,000 rows and 13 columns. There are 4002 distinct customers and 20,000 distinct transactions. The following are the steps I took for the data cleaning process:
+The original customer demographic dataset contained 20,000 rows and 13 columns. There are 4002 distinct customers and 20,000 distinct transactions. The following are the steps I took for the data cleaning process:
 - Inconsistent data type for the same attribute (e.g. numeric values for some fields and strings for others)
 - Removed duplicates values
 - Removed irrelevant columns such as the _Default column_
 - Customer IDs 753 and 3790 are deceased and therefore not useful for the analysis
 
-## Data wrangling & Modeling
-After several data-cleaning processes to ensure validity, accuracy, and consistency, Appropriate data transformations are made to ensure consistent data types for a given field, the Date of birth column (D.O.B.) was transformed into 4 age brackets using the Tableau **table calculation** feature.
+## Data wrangling and Modeling
+After several data-cleaning processes to ensure validity, accuracy, and consistency, appropriate data transformations are made to ensure consistent data types for a given field. The date of birth column (D.O.B.) was transformed into 4 age brackets using the Tableau **table calculation** feature. I used Vlookup for interactivity within the 3 sheets, I used Vlookup to look up the customer name in the transactions sheet via the customer ID 
 
-## Data Analysis & Visualization
+## Data Analysis and Visualization
 The dashboard provides marketing insights and answers through an interactive report page. Here is the link to the [dashboard](https://public.tableau.com/shared/NWN4RCXC6?:display_count=n&:origin=viz_share_link)
 
 ![KPMG Dashboard](https://github.com/Emmanuelson321/Sprocket-Central-Analysis/assets/134542481/a1fa70f8-81da-45eb-9848-4f9952021b85)
 
+The analysis chart below shows customers from manufacturing and financial services have been the major contributors to sales volume for the company.
+![image](https://github.com/Emmanuelson321/Sprocket-Central-Marketing_Analysis/assets/134542481/84ba527c-753d-4de7-bb0e-bdf0fe917f86)
+The chart presented below displays the distribution of customers by state and car ownership status. According to the chart, around 50% of customers in the NSW region do not own a car, which could be the reason for the high sales of bikes in that region.
+![image](https://github.com/Emmanuelson321/Sprocket-Central-Marketing_Analysis/assets/134542481/e5fd2b03-c035-4b84-a8e8-e44cf9a83a57)
+
 ## Insights
-- The most profitable customer segment for the company is the mass customer, and the age group of 28-50 is the most profitable.
+- The most profitable customer segment for the company is the mass customer which accounts for 50 % of the total wealth segment.
 - New South Wales customers contributed the most to the sales volume of the company.
+- The age group of 28–50 is the most profitable, and new customers should be targeted from there.
+- The Female gender has the highest number of bike purchases and generates more profit for the company than the male counterpart.
+- The WeareA2B brand is the most profitable while Solex is the most purchased brand of bike.
+The marketing company should focus on these customer segments to maximize profitability.
 
 ## Recommendation
+To improve sales, and optimize sustainability, and expand into a new market, these actions should be taken 
+1. 
