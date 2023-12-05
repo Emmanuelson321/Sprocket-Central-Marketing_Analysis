@@ -40,7 +40,7 @@ The original customer demographic dataset contained 20,000 rows and 13 columns. 
 - Customer IDs 753 and 3790 are deceased and therefore not useful for the analysis
 
 ## Data wrangling and Modeling
-After several data-cleaning processes to ensure validity, accuracy, and consistency, appropriate data transformations are made to ensure consistent data types for a given field. The date of birth column (D.O.B.) was transformed into 4 age brackets using the Tableau **table calculation** feature. I used Vlookup for interactivity within the 3 sheets, I used Vlookup to look up the customer name in the transactions sheet based on the customer ID.
+After several data-cleaning processes to ensure validity, accuracy, and consistency, appropriate data transformations are made to ensure consistent data types for a given field. The date of birth column (D.O.B.) was transformed into 4 age brackets using the Tableau **table calculation** feature. I used Vlookup to look up the customer name in the transactions sheet based on the customer ID.
 
 ## Data Analysis and Visualization
 The dashboard provides marketing insights and answers through an interactive report page. Here is the link to the [dashboard](https://public.tableau.com/shared/NWN4RCXC6?:display_count=n&:origin=viz_share_link)
